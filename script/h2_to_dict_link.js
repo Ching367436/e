@@ -10,7 +10,7 @@ document.querySelector("h1").addEventListener("dblclick", () => {
     }
 });
 
-const regex = /[A-Za-z\s-eéêëēėęèàáâäæãåāîïíīįìûüùúūôöòóœøōõ0-9',]+/g;
+const regex = /[A-Za-z\s-eéêëēėęèàáâäæãåāîïíīįìûüùúūôöòóœøōõ0-9\',]+/g;
 const cambridge_dict_url = "https://dictionary.cambridge.org/dictionary/english/";
 const oced_url = "hk-com-oupc-oecd-lookup://x-callback-url/s?q=";
 const oxford_learnersdictionary_url = "https://www.oxfordlearnersdictionaries.com/definition/english/"
